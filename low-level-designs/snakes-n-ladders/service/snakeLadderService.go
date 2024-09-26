@@ -48,7 +48,7 @@ func (s *SnakeLadderService) SetLadders(ladders []models.Ladders) {
 func (s *SnakeLadderService) getPositionAfterTurn(newPosition int) int {
 	var previousPosition int
 
-	for newPosition != previousPosition {
+	if newPosition != previousPosition {
 		previousPosition = newPosition
 		for _, snake := range s.Board.Snakes {
 			if snake.Start == newPosition {
