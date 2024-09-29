@@ -2,7 +2,7 @@
 
 ## Motivation
 Learning low level design of system at scale and prepare for the low level design (LLD) / Machine Coding round interviews.
-All the questions are tried to be solved using golang as thier main language
+All the questions are tried to be solved using golang as the primary language
 
 ## LLD Questions and their solutions
 - Snakes & Ladder
